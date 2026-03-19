@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Allows cleartext HTTP traffic to the backend server.
+    In production, migrate the backend to HTTPS and remove this config.
+-->
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">54.221.132.150</domain>
+    </domain-config>
+</network-security-config>

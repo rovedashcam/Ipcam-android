@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Camera body -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M72,38H36c-3.3,0-6,2.7-6,6v24c0,3.3,2.7,6,6,6h36c3.3,0,6-2.7,6-6V44C78,40.7,75.3,38,72,38z" />
+    <!-- Camera lens -->
+    <path
+        android:fillColor="#2563EB"
+        android:pathData="M54,48m-8,0a8,8,0,1,0,16,0a8,8,0,1,0,-16,0" />
+    <!-- Viewfinder notch -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M46,34h16l3,4H43z" />
+</vector>
